@@ -2453,7 +2453,7 @@ public:
 			     << dendl;
       /* XXX is there a missing match-dir case (trailing '/')? */
       matched = true;
-      if (name == path) {
+      if (name == prefix) {
 	exact_matched = true;
         return;
       }
